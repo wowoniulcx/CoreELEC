@@ -42,8 +42,8 @@ jobs:
 
       - name: Run build
         run: ./mkn1
-      - name: Upload bin directory
-        uses: actions/upload-artifact@main
+      - name: Upload target directory
+        uses: actions/upload-artifact@v3
         with:
           name: coreelec_19
           path: target
